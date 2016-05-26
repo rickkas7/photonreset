@@ -28,7 +28,7 @@ particle device remove 0123456789ABCDEFGHI
 
 Put the device in DFU mode (blinking yellow) and flash Tinker.
 ```
-particle flash —usb tinker
+particle flash --usb tinker
 ```
 
 Reset server key in case it was changed to a local server:
