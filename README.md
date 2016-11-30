@@ -96,7 +96,9 @@ particle keys load device.der
 
 ## Resetting the claim code
 
-The part that is often missed is clearing the claim code. You need a file that’s 64 bytes long and consists of 0xff bytes, except for the first byte, which is 0x00. Then you flash this to the device in DFU mode:
+The part that is often missed is clearing the claim code. You need a file that’s 64 bytes long and consists of 0xff bytes, except for the first byte, which is 0x00, most easily done by downloading [clear_claim.bin](https://github.com/rickkas7/photonreset/blob/master/clear_claim.bin?raw=true).
+
+Then you flash this to the device in DFU mode:
 
 ```
 dfu-util -d 2b04:d006 -a 1 -s 1762:64 -D clear_claim.bin
