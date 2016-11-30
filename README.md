@@ -25,7 +25,7 @@ void loop() {
 }
 ```
 
-One way to do this is to download the [resetsettings.ino](https://github.com/rickkas7/photonreset/blob/master/resetsettings.ino) file. 
+One way to do this is to download the [resetsettings.ino](https://github.com/rickkas7/photonreset/blob/master/resetsettings.ino?raw=true) file. 
 
 Put the Photon in DFU mode (blinking yellow), by pressing RESET and SETUP, releasing RESET and continuing to hold down SETUP while it blinks magenta until it blinks yellow, then release. 
 
